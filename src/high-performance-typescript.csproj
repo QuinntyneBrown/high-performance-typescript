@@ -68,8 +68,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\ch1\resource-timing-api\app.js" />
-    <Content Include="app\ch1\resource-timing-api\index.html" />
+    <Content Include="app\ch1\1 - resource-timing-api\index.html" />
+    <Content Include="app\ch1\2 - critical-rendering-path\index.html" />
+    <Content Include="app\ch1\2 - critical-rendering-path\styles.css" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
