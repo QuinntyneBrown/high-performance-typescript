@@ -1,0 +1,32 @@
+﻿</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 1: Document Load</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+          rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Page Load: <span id="page-load"></span></h1>
+
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                var timing = performance.timing;
+                var pageLoad = timing.loadEventEnd - timing.responseEnd;
+                document.getElementById("page-load").innerHTML = pageLoad;
+            }, 0);
+        }
+    </script>
+</body>
+</html>
+

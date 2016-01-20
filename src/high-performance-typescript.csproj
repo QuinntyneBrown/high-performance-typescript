@@ -69,9 +69,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\ch1\1 - resource-timing-api\index.html" />
-    <Content Include="app\ch1\2 - critical-rendering-path\index.html" />
-    <Content Include="app\ch1\2 - critical-rendering-path\styles.css" />
+    <Content Include="app\ch1\2 - document-load\index.html" />
+    <Content Include="app\ch1\3 - critical-rendering-path\index.html" />
+    <Content Include="app\ch1\3 - critical-rendering-path\styles.css" />
     <Content Include="packages.config" />
+    <Content Include="package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -94,6 +96,7 @@
     <Folder Include="app\ch7\" />
     <Folder Include="app\ch8\" />
     <Folder Include="app\ch9\" />
+    <Folder Include="lib\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
